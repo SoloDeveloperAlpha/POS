@@ -51,12 +51,12 @@ public class Menu_Proy {
     private static void verUsuarios(ArrayList<Usuario> usuarios) {
         System.out.println("\n **** LISTA DE USUARIOS **** ");
 
-        // Encabezado
+        // Encabezado Tabla
         System.out.printf("%-15s %-15s %-15s %-25s\n",
                 "Nombre", "Apellido", "Nickname", "Email");
         System.out.println("--------------------------------------------------------------------------");
 
-        // Filas con datos
+        // Filas con datos de tabla
         for (Usuario u : usuarios) {
             System.out.printf("%-15s %-15s %-15s %-25s\n",
                     u.getNombre(),

@@ -45,7 +45,7 @@ public class Tarea {
         return createdAt;
     }
 
-    @Override
+    
     public String toString() {
         DateTimeFormatter formato = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         return "Tarea: " + titulo 
